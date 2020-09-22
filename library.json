@@ -15,7 +15,8 @@
     "frameworks": "arduino",
     "platforms": "espressif32",
     "build": {
-        "libCompatMode": 2
+        "libCompatMode": 2,
+        "flags": "-fpermissive"
     },
     "dependencies": [
         {
